@@ -89,6 +89,8 @@ function addRecordHandler() {
   }
 
   addRecord(name, salary);
+  document.getElementById("name").value = "";
+  document.getElementById("salary").value = "";
 }
 
 function addRecord(name, salary) {
